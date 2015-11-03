@@ -1,9 +1,4 @@
-var jwt = require('jwt-simple');
 var Promise = require('bluebird');
-var bcrypt = Promise.promisifyAll(require('bcrypt-nodejs'));
-
-// for encoding the jwt tokens
-var secret = 'a Secret';
 
 
 module.exports = {
@@ -16,10 +11,4 @@ module.exports = {
   }
 
 };
-
-
-
-
-
-
 
